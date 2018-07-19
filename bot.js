@@ -6,8 +6,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '+yt') {
-    	message.reply('https://m.youtube.com/channel/UCTJQkBj3dhkgA1TXnpZGkhw');
+    if (message.content === '..help') {
+    	message.reply('Our Commands are
+                      ..patches
+                      ..yt
+                      ..infos');
   	}
 });
 
